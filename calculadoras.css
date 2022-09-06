@@ -1,0 +1,66 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: url("https://img.freepik.com/fotos-gratis/empresario-trabalhando-com-contas_1098-20001.jpg?w=740&t=st=1662422506~exp=1662423106~hmac=c32ca296563fae41140b7421d753fb9b9a636c36d86ed9f882f0ae1414f522a4");
+  background-color: #888888;
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #41118a;
+  font-weight: 700; 
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #41118a;
+  font-size: 21px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.nota {
+  color: #306e0d;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.reprovado{
+  color: red;
+}
+
+.farenheit {
+  color: #306e0d;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.celsius {
+  color: #306e0d;
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+/* teste */
