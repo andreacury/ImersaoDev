@@ -93,12 +93,12 @@
 
 ### Etapas da aula:
 
-- Criar um array usando a sintaxe [];
+- Criar um array usando a sintaxe shorthand: [];
 - Utilizar o método filmes.push("Nome Do Filme") para inserir um novo elemento;
 - Descobrir a quantidade de elementos com o método array.length;
 - Selecionar elementos utilizando a sintaxe array[posição];
 - Utilizar a instrução for para iterar;
-- Criar um array com imagens de pôsters de alguns filmes;
+- Criar um array com imagens de pôsteres de alguns filmes;
 - Montar a lógica do programa que vai iterar esta array de filmes e exibir cada um deles na tela, integrando o for do JavaScript com document.write();
 - Criar uma condição para não adicionar filmes repetidos, caso eles já tenham sido adicionados anteriormente;
 <p align="center">
