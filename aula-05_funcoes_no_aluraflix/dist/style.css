@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-left: 237px;
+  margin-right: 237px;
+  border-radius: 34px;
+}
+
+.page-title {
+  color: #0d0d0d;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #0d0d0d;
+  margin-top: 5px;
+  font-size: 27px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+#listaFilmes {
+  display: flex;
+  align-items: stretch;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  line-height: 2rem;
+  text-align: center;
+}
+
+#filme {
+  width: 270px;
+}
+
+#nome-filme {
+  width: 270px;
+}
+
+.form-wrapper button {
+  border: 0;
+  color: #ffffff;
+  background: #0153b2;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
+
+.delete-button {
+  position: relative;
+  bottom: 254px;
+  right: 24px;
+}
+
+.titulo-filme {
+  color: rgba(255, 255, 255, 75%);
+  font-size: 21px;
+  text-align: -webkit-match-parent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 62px;
+}
+
+.blur {
+  filter: blur(8px);
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-image: URL("https://italiano.forumdeidiomas.com.br/wp-content/uploads/sites/6/2015/10/cinema_paradiso.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item-filme {
+  background-color: rgba(0, 0, 0, 0.8);
+}

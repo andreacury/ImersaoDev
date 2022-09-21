@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="page-title">
+    Aluraflix
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+  <h2 class="page-subtitle">
+    Filmes favoritos:
+  </h2>
+  <div>
+    <input id="enderecoFilme" class="input" type="text" placeholder="URL do filme" />
+    <button type="submit" class="button is-info" onclick="const URL = document.getElementById('enderecoFilme').value; adicionarFilmesNoIncluir(URL); document.getElementById('enderecoFilme').value = ''">Incluir</button>
+  </div>
+  <div id="box-filmes" class="gut"></div>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+</a>

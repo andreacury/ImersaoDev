@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+}
+
+body.gradiente {
+  background: linear-gradient(236.85deg, #7c5350 27.26%, #cda09b 96.03%);
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.card {
+  background: #f4efec;
+  color: #1c1c1c;
+  margin: 64px;
+  box-shadow: 6px 6px 6px #3e2a28;
+  border-radius: 20px;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(155, 154, 152, 0.8);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(230.65deg, #dcafac 27.49%, #e8cecd 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  margin-top: 25px;
+  padding-bottom: 64px;
+  color: #1c1c1c;
+}
+
+.projetos ul {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 56px;
+}
+
+.projetos li {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: #1c1c1c;
+}

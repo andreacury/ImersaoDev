@@ -1,0 +1,39 @@
+<body>
+  <div class="blur"></div>
+  <div class="container">
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br>
+    <h1 class="page-title">
+      Conversor de moedas
+    </h1>
+    <p class="page-subtitle">
+      Descubra os valores em real R$
+    </p>
+    <label for="moeda">Selecione a moeda e insira o valor:</label><br>
+    <select id="moedas">
+      <option value="5">Dólar</option>
+      <option value="5.2">Euro</option>
+      <option value="6.05">Libra Esterlina</option>
+      <option value="99040.14">Bitcoin</option>
+    </select>
+    <input type="number" id="valor" size="2" /><br>
+    <button type="submit" onclick="ConverterMoeda()">Converter</button>
+    <h2 id="valorConvertido"></h2>
+    <h1 class="page-title">
+      Conversor de temperaturas
+    </h1>
+    <p class="page-subtitle">
+      Descubra os valores em graus Celsius
+    </p>
+    <label for="temperatura">Selecione a temperatura e insira o valor:</label><br>
+    <select id="temperaturas">
+      <option value="(dinamico-32)/1.8">Fahrenheit</option>
+      <option value="273-dinamico">Kelvin</option>
+    </select>
+    <input type="number" id="temperatura" size="2" /><br>
+    <button type="submit" onclick="ConverterTemperatura()">Converter</button>
+    <h2 id="valorTemperatura"></h2>
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    <br>
+</body>

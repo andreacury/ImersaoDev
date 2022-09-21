@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Aula 06 - OBJETOS E TABELAS DE CLASSIFICAÇÃO</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <div class="blur"></div>
+  <div class="container">
+    <h1>Tabela de classificação</h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt=""><br>
+    <br>
+    <table style="width:100%">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Foto</th>
+          <th>Vitórias</th>
+          <th>Empates</th>
+          <th>Derrotas</th>
+          <th>Pontos</th>
+          <th colspan="3">Ações</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+
+      </tbody>
+      </tr>
+      </tbody>
+    </table>
+    <div class="form-wrapper">
+      <button onClick="zerarPontos()">Apagar</button>
+      <p>
+        <input type="text" id="jogador" placeholder="Insira o nome do jogador">
+        </br>
+        <input type="text" id="imagem" placeholder="Insira o endereço da imagem">
+        <button onClick="adicionarJogador()">Adicionar jogador</button>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

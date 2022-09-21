@@ -1,0 +1,52 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 854px;
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background: #ffc0cb;
+}
+
+h2 {
+  color: #000000;
+}
+
+.opcoes {
+  color: black;
+  font-size: 20px;
+}
+
+#resultado {
+  font-size: 30px;
+  color: #8b0000;
+  font-weight: bold;
+}
+
+.blur {
+  filter: blur(4px);
+  height: 100%;
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  background-image: URL("https://ik.imagekit.io/d27feyc9fo/Sakura_03_uvrJtLorf.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1663117563804");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
